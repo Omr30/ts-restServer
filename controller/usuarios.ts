@@ -31,7 +31,8 @@ export const putUsuario = (req: Request, res: Response) => {
 
     res.json({
         msg: 'putUsuarios',
-        body
+        body,
+        id
     })
 }
 export const deleteUsuario = (req: Request, res: Response) => {
