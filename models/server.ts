@@ -27,7 +27,7 @@ class Server {
             await db.authenticate();
             console.log('Database online');
         } catch (error) {
-            console.error(error)
+            console.error('Unable to connect to the database:', error)
         }
     }
 
